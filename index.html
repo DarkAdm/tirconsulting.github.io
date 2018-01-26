@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <link href="/favicon.ico" type="image/x-icon">
+  <title>TIR+Consulting - сервіс з придбання автомобіля</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--[if IE]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+   article, aside, details, figcaption, figure, footer,header,
+   hgroup, menu, nav, section { display: block; }
+  </style>
+ </head>
+ <body>
+ <div id="Modale">
+      <div class="wrap">
+          <div class="formContainer">
+            <button id="ModaleClose"><i class="fa fa-times" aria-hidden="true"></i></button>
+              <form action="">
+                <p>Вкажіть ім'я</p>
+                <input type="text" name="Name" required='true' placeholder="Ім'я">
+                <p>Вкажіть номер телефону</p>
+                <input type="text" name="Number" required='true'
+                placeholder="Номер телефону">
+                <p>Вкажіть зручний для вас час</p>
+                <select>
+                        <option>9:00 - 12:00</option>
+                        <option>12:00 - 14:00</option>
+                        <option>15:00 - 18:00</option>
+                        <option>18:00 - 21:00</option>
+                </select>
+                <p>Введіть опис послуги</p>
+                <textarea name="Commend" cols="10" rows="10"></textarea>
+                 request=erorSend
+                <button type="submit">Замовити консультацію</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  <Header>
+    <div class="TopHeader">
+        <div class="row">
+            <div class="large-3 medium-4 small-10 columns">
+                <div class="logo">
+                   <img src="img/logo.png" alt="">
+                   <ul>
+                       <li>
+                           <a id="Tir" href="index.html">TIR <span id="SpOne">+</span><span id="SpTwo">+</span></a>
+                       </li>
+                       <li>
+                           <a id="Consulting" href="index.html">Consulting</a>
+                       </li>
+                   </ul>
+                </div>
+            </div>
+            <div class="large-9 medium-8 small-2 columns">
+               <div class="SmallButton">
+                   <i class="fa fa-bars" aria-hidden="true" id="OpenSmallMenu"></i>
+               </div>
+               <div class="SmallMenu">
+                  <i class="fa fa-times" aria-hidden="true" id="CloseSmallMenu"></i>
+                   <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Портфоліо</a>
+                        </li>
+                        <li>
+                            <a href="buy.html">Авто в наявності</a>
+                        </li>
+                        <li>
+                            <a href="we.html">Про Нас</a>
+                        </li>
+                        <li>
+                            <a href="consult.html">Послуги</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Контакти</a>
+                        </li>
+                    </ul>
+               </div>
+                <div class="Menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Портфоліо</a>
+                        </li>
+                        <li>
+                            <a href="buy.html">Авто в наявності</a>
+                        </li>
+                        <li>
+                            <a href="we.html">Про Нас</a>
+                        </li>
+                        <li>
+                            <a href="consult.html">Послуги</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="TopHeaderInfo">
+        <h1>Обери авто сам</h1>
+        <p>Ми пропонуэм вам відвідати Європу з нами і вибрати авто самостійно</p>
+        <a href="#Modale" id="JS-Modale">Замовити консультацію</a>
+    </div>  
+  </Header>
+  <section id="We">
+     <div class="row">
+        <div class="large-6 medium-6 small-12 columns wow bounceInLeft" data-wow-offset='150' >
+             <h1>TIR + Consulting</h1>
+      <p>TIR + Consulting - українська консалтингова група, що надає Вам найкращий сервіс  придбання автомобілів з Європи, під замовлення, з Вашою присутністю, впродовж всієї процедури від купівлі авто і до реєстрації в Україні. Ви можете бути впевнені в тому, що автомобіль з Європи буде доставлений в мінімальні терміни і за найбільш вигідною ціною, оскільки Ви самі присутні при всій процедурі покупки . Ми працюємо на ринку європейських автомобілів багато років і маємо перевірених партнерів в більшості країн ЄС.
+    </p>
+         </div>
+         <div class="large-6 medium-6 small-12 columns wow bounceInLeft" data-wow-offset='150'>
+            <div class="Mobile">
+                <ul>
+                    <li>
+                    <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                    (095)657-69-66</li>
+                    <li><span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                    (068)799-16-24</li>
+                </ul>
+            </div>
+             <img src="img/phone.png" alt="">
+         </div>
+         <div class="large-12 column">
+            <a href="" id="Js-hideText">Дізнатись більше про нас <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+             <div class="HideInfoBlock">
+                 <p>
+                     Ми професійно надаємо такі послуги:
+                 </p>
+                 <ul>
+                     <li>1.Підбір Авто згідно заданих Вами критерій, враховуючи будь-які найдрібніші побажання.</li>
+                     <li>2. Надаємо консультанта для супроводу за автомобілем, що Вас цікавить.</li>
+                 </ul>  
+                 <p>
+                     Як відбувається процедура співпраці з нами?
+                 </p>
+                 <p>
+                    Наш консультант перед поїздкою запропонує декілька варіантів, забронює потрібні і Ви вирушите за автомобілем.
+                 </p>
+                 <p>
+                     В обов'язки консультанта входить: 
+                 </p>
+                  <ul>
+                      <li>- Повний супровід клієнта. </li>
+                      <li>- Повна відкритість цін на авто за кордоном. </li>
+                      <li>- Розрахунок вартості розмитнення.</li>
+                      <li>- Повідомлення клієнту кінцевої вартості авто в Україні.</li>
+                      <li>- Покупка авто.</li>
+                      <li>- Оформлення всіх експортних документів.</li>
+                      <li>- Супровід авто до кордону і передачі клієнта консультанту по розмитненні.</li>
+                  </ul>
+                    <p>
+                        Консультант по розмитненні зобов'язаний :
+                    </p>
+                    <ul>
+                        <li>1.Провести ваше авто через кордон в найкоротший термін.</li>
+                        <li>2.Доставка авто на  внутрішню митницю.</li>
+                    </ul>
+                    <a href="#Js-hideText" id="Js-hideTexte">Згорнути <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+             </div>
+         </div>
+     </div>
+  </section>
+  <section id="WhyMe">
+      <h1>Чому люди обирають саме нас?</h1>
+      <div class="WhyMeBlock">
+          <div class="row">
+              <div class="large-4 medium-6 columns">
+                  <div class="WhyMeIteam wow bounceInUp" data-wow-offset='100'>
+                      <i class="fa fa-globe" aria-hidden="true"></i>
+                      <h1>Знання Європейського Союзу </h1>
+                      <p>Ми міжнародна компанія  і маємо партнерів по всій Європі, з якими постійно і ефективно співпрацюємо.</p>
+                  </div>
+              </div>
+              <div class="large-4 medium-6 smal-12 columns">
+                  <div class="WhyMeIteam wow bounceInUp" data-wow-offset='200'>
+                      <i class="fa fa-address-book" aria-hidden="true"></i>
+                      <h1>Досвід</h1>
+                      <p>Дозволяє нам швидко і якісно виконувати свої зобов'язання в будь-який з послуг, що надаються.</p>
+                  </div>
+              </div>
+              <div class="large-4 medium-6 smal-12 columns" >
+                  <div class="WhyMeIteam wow bounceInUp" data-wow-offset='200'>
+                      <i class="fa fa-archive" aria-hidden="true"></i>
+                      <h1>Повний спектр послуг </h1>
+                      <p>Пов'язаний з пошуком і доставкою автомобіля з Європи під замовлення - здійснюється висококваліфікованим персоналом, з серйозним послужним списком.</p>
+                  </div>
+              </div>
+              <div class="large-4 medium-6 smal-12 columns">
+                  <div class="WhyMeIteam wow bounceInUp" data-wow-offset='200'>
+                      <i class="fa fa-shield" aria-hidden="true"></i>
+                      <h1>Легальність</h1>
+                      <p>Ми офіційно зареєстрована компанія, яка працює в своєму сегменті ринку. Гарантією якісного виконання наших зобов'язань є підписання договору, про надання послуг..</p>
+                  </div>
+              </div>
+              <div class="large-4 medium-6 smal-12 columns">
+                  <div class="WhyMeIteam wow bounceInUp" data-wow-offset='200'>
+                      <i class="fa fa-user-o" aria-hidden="true"></i>
+                      <h1>Індивідуальний підхід </h1>
+                      <p>Дозволяє входити в ситуацію будь-кого з Вас і запропонувати найбільш оптимальний шлях вирішення Вашого питання.</p>
+                  </div>
+              </div>
+              <div class="large-4 medium-6 smal-12 columns">
+                  <div class="WhyMeIteam wow bounceInUp" data-wow-offset='200'>
+                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                      <h1>Чесність і відкритість</h1>
+                      <p>Ми ніяким чином не приховуємо схему своєї роботи, кожен може знайти всю  інформацію на нашому інтернет-ресурсі.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="Portfolio">
+       <div class="row">
+           <div class="large-6 medium-12 smal-12 columns">
+               <div class="PortfolioBlock">
+                   <img src="img/Portfolio1.jpg" alt="Portfolio">
+                   <a href="portfolio.html" class="SmallSHOp">Переглянути портфоліо</a>
+                   <div class="PortfolioMask">
+                       <a href="portfolio.html">Переглянути портфоліо</a>
+                   </div>
+               </div>
+           </div>
+           <div class="large-6 medium-12 small-12 columns">
+               <div class="PortfolioBlock">
+                   <img src="img/Portfolio2.jpg" alt="Portfolio">
+                   <a href="buy.html" class="SmallSHOp">Автомобілі в наявності</a>
+                   <div class="PortfolioMask">
+                       <a href="buy.html">Автомобілі в наявності</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+  </section>
+  <section id="Map">
+      <div class="row">
+          <div class="large-5 medium-6 small-12 columns">
+              <div class="MapInfo">
+                  <h1>Наші партнери:</h1>
+                  <ul>
+                      <li><i class="fa fa-map-marker" aria-hidden="true"></i> Польща</li>
+                      <li><i class="fa fa-map-marker" aria-hidden="true"></i> Німеччина</li>
+                      <li><i class="fa fa-map-marker" aria-hidden="true"></i> Голандія</li>
+                  </ul>
+                  <h1>Наші контакти:</h1>
+                  <ul>
+                      <li><i class="fa fa-phone" aria-hidden="true"></i> (095)657-69-66</li>
+                      <li><i class="fa fa-phone" aria-hidden="true"></i> (068)799-16-24</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="large-7  medium-6 columns">
+              <div class="MapBar">
+                  <img src="img/map_full.png" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer><a href="index.html">©TIR + Consulting. Все права защищены
+</a></footer>
+  <script src="js/libs.min.js"></script>
+  <script src="js/common.js"></script>
+ </body>
+</html>
